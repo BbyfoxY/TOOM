@@ -1,1 +1,33 @@
+body {
+	margin: 0;
+	background: #1a1a1a;
+	font-family: 'Red Hat Mono', 'monospace';
+	color: #00aa00;
+}
 
+#sidebar {
+	background: #222222;
+	text-align: center;
+	float: left;
+	width: 20%;
+	height: 100vh;
+	padding: 10 0 10 0;
+}
+
+#sidebar a {
+	text-decoration: none;
+	color: #00aa00;
+}
+
+#content {
+	text-align: center;
+	float: right;
+	width: 80%;
+	height: 100vh;
+	padding: 10 0 10 0;
+}
+
+iframe {
+	width: 80%;
+	height: 99vh;
+}
