@@ -5,7 +5,7 @@ function main() {
 	var h = document.createElement('h1');
 	var ha = document.createElement('a');
 	var hat = document.createTextNode('Homepage');
-	ha.href = '/TOOM/index.html';
+	ha.href = '/TOOM/';
 	ha.appendChild(hat);
 	h.appendChild(ha);
 	var d1 = document.createElement('h1');
